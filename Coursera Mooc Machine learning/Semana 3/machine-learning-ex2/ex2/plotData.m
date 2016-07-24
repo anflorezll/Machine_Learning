@@ -8,8 +8,8 @@ figure; hold on;
 
 
 pos = find(y==1); neg = find(y == 0);% encuentra y asigna los valores positivos  
-                                       % y negativos este es el proceso
-                                       % de cluster bajo aprendizaje supervizado
+                                       % y negativos; este es el proceso
+                                       % de cluster bajo aprendizaje supervizado.
 
 plot(X(pos, 1), X(pos, 2), 'k+'); % grafica los valores positivos 
                                   % asignandoles un '+'= mas como figura
